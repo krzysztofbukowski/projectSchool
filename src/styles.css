@@ -11,6 +11,7 @@
      align-items: center;
      font-family: Helvetica;
  }
+
  .container p{
      font-size: 20px;
  }
@@ -30,8 +31,7 @@
      align-items: flex-start;
      justify-content: center;
      list-style-type: none;
-     padding-left: 5%;     
-               
+     padding-left: 5%;                    
  }
 
  .menuItem{
@@ -58,6 +58,7 @@
      color: #b5a6be;
      font-weight: bold;
  }
+
  .articles{
      width:83vw;
      height: 138vw;
@@ -69,6 +70,7 @@
      align-items: center;
      flex-direction: column;
  }
+ 
  /* #fifthArticle{
      /* display: flex;
      flex-direction: column; 
@@ -91,9 +93,9 @@
     border: solid #b89898 1px;
     background-color: #32383e;
     color: #ffffff;
-    align-self: center;
-   
+    align-self: center;  
 }
+
 .authors td{
  border-top:  1px solid #dee2e64d;
  padding: 0.4em 0 0 0.7em;
