@@ -5,51 +5,49 @@
      width: 100%;
      display: flex;
      background-color: #eaeaea;
-     justify-content: space-between;
-     align-items: center;
+     justify-items: flex-end;
      font-family: Helvetica;
  }
 
  .container p{
-     font-size: 20px;
+     font-size: 18px;
  }
 
- .menu{
-     width: 6vw;
-     height: 50vw;
-     align-self: flex-start;
-     padding-top: 0.3%;
+ .leftSide{
+     width: 12%;
+     min-width: 100px;
+     /* background-color: green; */
  }
 
  .mainMenu{
-     height: 10vw;
-     background-color: #596166;
-     display: flex;
-     flex-direction: column;
-     align-items: flex-start;
-     justify-content: center;
+     margin-top: 0;
+     height: 30vh;
+     padding-left: 0px;
+     background-color: #596166;    
      list-style-type: none;
-     padding-left: 5%;                    
+     width: 90%;
+                     
  }
 
- .menuItem{
-     margin-top: 8%;
-     background-color:#1d3241;
-     width: 5vw;
-     height: 1.4vw;
-     text-align: center;
-     padding: 8%;
-     /* vertical-align: middle; */
+ .menuItem{ 
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color:#1d3241;    
      cursor: pointer;
+     height: 20%;
+     min-height:20px; 
+     border-top: 1px solid #b49c9c98;
+     
  }
 
  .menuItem:hover{
-     background-color: #351b46;
+     background-color: #201b24;
  }
 
  .anchorMenu{
      text-decoration: none;
-     color: #d0dfe5;
+     color: #d0dfe5;  
  }
 
  .anchorMenu:hover{
@@ -57,18 +55,13 @@
      font-weight: bold;
  }
 
- .articles{
-     width:83vw;
-     margin-right: 6%;
+ .content{
+     width:83vw;    
      padding-bottom: 1%;
      background-color: #2222;
-     display: flex;
-     align-items: center;
-     flex-direction: column;
  }
  
  .containerOnText{
-     width: 76vw;
      background-color: #ffffff6e;
      margin-top: 15px;
      padding: 20px;
@@ -87,6 +80,9 @@
 }
 
 .authors td{
- border-top:  1px solid #dee2e64d;
- padding: 0.4em 0 0 0.7em;
+    border-top:  1px solid #dee2e64d;
+    padding: 0.4em 0 0 0.7em;
+}
+.mainTitle{
+    text-align: center;
 }
