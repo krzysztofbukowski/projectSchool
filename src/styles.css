@@ -2,10 +2,8 @@
     box-sizing: border-box;
  }
  .container{
-     height: 140vw;
      width: 100%;
      display: flex;
-     /* border: solid 1px red; */
      background-color: #eaeaea;
      justify-content: space-between;
      align-items: center;
@@ -61,8 +59,6 @@
 
  .articles{
      width:83vw;
-     height: 138vw;
-     /* background-color: green; */
      margin-right: 6%;
      padding-bottom: 1%;
      background-color: #2222;
@@ -71,14 +67,8 @@
      flex-direction: column;
  }
  
- /* #fifthArticle{
-     /* display: flex;
-     flex-direction: column; 
- } */
-
- .test{
+ .containerOnText{
      width: 76vw;
-     height: 40vw;
      background-color: #ffffff6e;
      margin-top: 15px;
      padding: 20px;
