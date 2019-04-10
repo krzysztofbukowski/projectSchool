@@ -64,7 +64,7 @@
  .containerOnText{
      background-color: #ffffff6e;
      margin-top: 15px;
-     padding: 20px;
+     padding: 20px 20px 5px 20px;
  }
 
 .authors{
@@ -86,3 +86,17 @@
 .mainTitle{
     text-align: center;
 }
+/* counter-increment */
+.placeOnNavButton{
+    text-align: center;
+    
+}
+.navButton:hover{
+    box-shadow: 1px 1px #1d32413a;
+    background-color: #cfcbcb;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* a{
+    text-decoration: none;
+} */

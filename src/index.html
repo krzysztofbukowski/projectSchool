@@ -9,7 +9,7 @@
             <div class="container">
 
                 <div class="leftSide">
-                    <ul class="mainMenu">
+                    <ul class="mainMenu" id="">
                         <li class="menuItem"><a class="anchorMenu" href="#thirdArticle">Artykuł1</a></li>
                         <li class="menuItem"><a class="anchorMenu" href="#secondArticle">Artykuł2</a></li>
                         <li class="menuItem"><a class="anchorMenu" href="#thirdArticle">Artykul3</a></li>
@@ -41,6 +41,7 @@
                             nam voluptatibus temporibus corporis dicta dolor alias! Quo quae dolores repellat a consequuntur temporibus!
                             fugit!
                         </p>
+                        <div class="placeOnNavButton"><button class="navButton">Powrót do menu</button></div>
                     </div>
                     <div class="containerOnText" id="secondArticle">
                             <h3>Podtytul2</h3>
@@ -59,6 +60,7 @@
                                 quibusdam distinctio? Similique et, autem quae ullam accusantium illum, laudantium ad odit optio praesentium
                                 magnam! alias excepturi! Eveniet?
                             </p>
+                            <div class="placeOnNavButton"><button class="navButton">Powrót do menu</button></div>
                     </div>
                     <div class="containerOnText" id ="thirdArticle">
                             <h3>Podtytul3</h3>
@@ -77,6 +79,7 @@
                                 architecto inventore natus incidunt eligendi recusandae ducimus! Obcaecati aliquid, deserunt incidunt maiores
                                 exercitationem soluta! Reprehenderit.
                             </p>
+                            <div class="placeOnNavButton"><button class="navButton">Powrót do menu</button></div>
                     </div>
                     <div class="containerOnText" id ="fourthArticle">
                             <h3>Podtytul4</h3>
@@ -95,6 +98,7 @@
                                 architecto inventore natus incidunt eligendi recusandae ducimus! Obcaecati aliquid, deserunt incidunt maiores
                                 exercitationem soluta! Reprehenderit.
                             </p>
+                            <div class="placeOnNavButton"><button class="navButton">Powrót do menu</button></div>
                     </div>
                     <div class="containerOnText" id="fifthArticle">
                             <h3>Podtytul5</h3>
@@ -119,10 +123,18 @@
                                 <tr><td>2.</td><td>imie2</td><td>nazwisko2</td><td>mail2</td></tr>
                                 <tr><td>3.</td><td>imie3</td><td>nazwisko3</td><td>mail3</td></tr>
                             </table>
+                            <div class="placeOnNavButton"><button class="navButton">Powrót do menu</button></div>
                     </div>
                 </div>
                             
             </div>
-                       
+                     <script async>
+                        const button = document.querySelectorAll(".navButton");
+                            for (var i = 0; i < button.length; i++) {
+                                button[i].addEventListener("click", function(){
+                                    window.scrollTo(0, 0);
+                                });
+                            };
+                     </script>
         </body>
     </html>
