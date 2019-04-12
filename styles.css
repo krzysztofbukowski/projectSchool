@@ -1,0 +1,161 @@
+
+* {
+    box-sizing: border-box;
+ }
+
+.container {
+    background-color: #eaeaea;
+    display: flex;
+    font-family: Helvetica;
+    justify-items: flex-end;
+    width: 100%;     
+ }
+
+.container p {
+    font-size:18px;
+}
+
+.leftSide {
+    min-width: 100px;
+    width: 12%;
+ }
+    
+.mainMenu { 
+    background-color: #596166;    
+    list-style-type: none;
+    margin-top: 0;
+    padding-left: 0px;
+    width: 90%;                    
+ }
+
+.menuItem { 
+    align-items: center;
+    background-color:#1d3241;    
+    border-top: 1px solid #b49c9c98;   
+    cursor: pointer;
+    display: flex;
+    height: 20%;
+    justify-content: center;
+    min-height:20px; 
+}
+
+.menuItem:hover {
+    background-color:#201b24;
+}
+
+.menuAnchor {
+    color: #d0dfe5;  
+    text-decoration: none;
+}
+
+ .menuAnchor:hover {
+    color: #b5a6be;
+    font-weight: bold;
+}
+
+.content {
+    background-color: #2222;
+    padding-bottom: 1%;
+    width:83%;    
+}
+ 
+ .containerOnText {
+    background-color: #ffffff6e;
+    margin-top: 15px;
+    padding: 20px 20px 5px 20px;
+}
+
+.authors {
+    align-self: center;  
+    background-color: #32383e;
+    border: solid #b89898 1px;
+    color: #ffffff;
+    height: 30%;
+    margin-top: 4%;
+    margin: auto;
+    position: relative;;
+    width: 60%;
+}
+
+.authors td {
+    border-top:  1px solid #dee2e64d;
+    padding: 5px 0 0 10px;
+}
+
+.mainTitle {
+    text-align: center;
+}
+
+.placeOnNavButton {
+    text-align: center;
+}
+
+.navLink {
+    color: #32383e;  
+    font-size: 10px;
+    text-decoration: none;
+    transition: color 500ms linear;
+}
+
+.navLink:hover {
+    color: rgb(223, 35, 35);
+    transition: color 500ms linear;  
+}
+.containerOnComments{
+    background-color: #e4e4e4;
+    margin-top: 10px;
+}
+.boxOnComment{
+    /* background-color: red; */
+    margin-top: 10px;  
+    max-width: 90%;
+}
+
+.commentContent p{
+    font-size: 10px;
+    margin: 0;
+    min-width: 400px;
+    padding: 0px 10px 5px 10px;   
+}
+
+.userName{
+    font-size: 13px;
+    padding: 5px;
+}
+
+.commentsTittle{
+    text-align: center;
+}
+
+.articlesPromo{
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0 15px 0;
+    padding-top: 10px;
+}
+
+.imgPromo{
+    height: 200px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.textOnImage{
+    bottom: 20px;
+    position: relative;
+    text-align: center;  
+    width: 500px;
+}
+
+.textOnImage a{
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.textOnImage a:hover{
+    color: #af1212;
+    text-decoration: underline;
+}
