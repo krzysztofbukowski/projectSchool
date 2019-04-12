@@ -1,4 +1,4 @@
-# projectSchool
+
 # Stosowane technologie HTML i CSS  
 ## 1.Konwencja kodu dla HTML’a:  
     *Nazwy znaczników i atrybutów HTML - wszystkie z małych liter   
